@@ -1,0 +1,33 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "applicattion_movil",
+            "cwd": "Proyectos/Aplicacion_Movil/applicattion_movil",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "applicattion_movil (profile mode)",
+            "cwd": "Proyectos/Aplicacion_Movil/applicattion_movil",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "applicattion_movil (release mode)",
+            "cwd": "Proyectos/Aplicacion_Movil/applicattion_movil",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "Open in Xcode",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main.dart",
+            "cwd": "Proyectos/Aplicacion_Movil/applicattion_movil",
+            "postDebugTask": "openXcode"
+        }
+    ]
+}

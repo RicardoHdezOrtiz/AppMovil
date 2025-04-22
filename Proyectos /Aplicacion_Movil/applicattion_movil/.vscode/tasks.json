@@ -1,0 +1,16 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "openXcode",
+        "type": "shell",
+        "command": "open",
+        "args": [
+          "-a",
+          "Xcode",
+          "Proyectos/Aplicacion_Movil/applicattion_movil/ios/Runner.xcworkspace"
+        ],
+        "problemMatcher": []
+      }
+    ]
+  }
